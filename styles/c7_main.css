@@ -124,3 +124,40 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+
+nav{
+	position: relative;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li{
+	float: left;
+	display: block;
+	width: 20%;
+	text-align: center;
+	padding: 1em 0;
+	background-color: #800000;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.current{
+	color: yellow;
+}
+
+nav ul li ul li {
+	clear: both;
+}
+
+.submenu{
+	display: none;
+	position: relative;
+}
